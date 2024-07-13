@@ -33,7 +33,14 @@ console.log(`First char of given string '${str4}' is : ${firstChar(str4)}`);
 
 console.log("========== Que 4 ==========");
 console.log("========== Capitalization of of given string ==========");
-
+function capitalizeWord(string) 
+{
+return string.charAt(0).toUpperCase() + string.slice(1);
+}
+console.log(toUpper("language of internet"));
+console.log(toUpper("EloN musk - The tycoon of decade"));
+console.log(toUpper("My Life My Life"));
+console.log(toUpper("logical programming question SET"));
 
 console.log("========== Que 5 ==========");
 console.log("========== Given string contain UI word ==========");
