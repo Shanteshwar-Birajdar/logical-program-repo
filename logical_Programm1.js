@@ -65,3 +65,5 @@ console.log(`The array of substring from '${str6}' is : `,result2);
 const str7 = "Rupees,Dollar,Krone,Pound,Dinner";
 const result3 = splitString(str7,',')
 console.log(`The array of substring from '${str7}' is : `,result3);
+
+console.log(`========== END ==========`);
