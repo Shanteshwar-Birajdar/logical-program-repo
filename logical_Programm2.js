@@ -1,6 +1,6 @@
 
 console.log("========== Que 7 ==========");
-console.log("========== Reverse method with predefined method ==========");
+console.log("========== Reverse string with predefined method ==========");
 function reverseMethod(str){
 return str.split('').reverse( ).join('');
 }
@@ -9,7 +9,7 @@ console.log(`The reverse of the string '${str}' is : ${reverseMethod(str)}`);
 const str1 = "UI Developer";
 console.log(`The reverse of the string '${str1}' is : ${reverseMethod(str1)}`);
 
-console.log("========== Reverse method without predefined method ==========");
+console.log("========== Reverse string without predefined method ==========");
 function reverseString(str){
 let reverseString = '';
 for (let index = str.length - 1; index => 0; index--) {

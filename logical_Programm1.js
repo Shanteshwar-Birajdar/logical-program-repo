@@ -34,16 +34,13 @@ console.log(`First char of given string '${str4}' is : ${firstChar(str4)}`);
 console.log("========== Que 4 ==========");
 console.log("========== Capitalization of of given string ==========");
 function titleCase(str) {
-    return str
-      .toLowerCase()
-      .split(' ')
-      .map((word) => word[0].toUpperCase() + word.slice(1))
-      .join(' ')
+return str.toLowerCase().split(' ').map((word) => word[0].toUpperCase() 
++ word.slice(1)).join(' ')
   }
-console.log(titleCase("language of internet"));
-console.log(titleCase("EloN musk - The tycoon of decade"));
-console.log(titleCase("My Life My Life"));
-console.log(titleCase("logical programming question SET"));
+console.log(titleCase(`language of internet`));
+console.log(titleCase(`EloN musk - The tycoon of decade`));
+console.log(titleCase(`My Life My Life`));
+console.log(titleCase(`logical programming question SET`));
 
 console.log("========== Que 5 ==========");
 console.log("========== Given string contain UI word ==========");
@@ -68,7 +65,7 @@ const str5 = "apple,orange,banana";
 const result1 = splitString(str5,',')
 console.log(`The array of substring from '${str5}' is : `,result1);
 
-const str6 = "Stew,Bill,,Jenny,Elon";
+const str6 = "Stew,Bill,Jenny,Elon";
 const result2 = splitString(str6,',')
 console.log(`The array of substring from '${str6}' is : `,result2);
 
