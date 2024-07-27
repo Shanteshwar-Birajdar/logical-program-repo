@@ -12,3 +12,4 @@ const string5 = ("Front end and backend technologies");
 console.log(`Given string '${string5}' contain word UI => ${containsUI(string5)}`);
 const string6 = ("MEAN or MERN - UI developer");
 console.log(`Given string '${string6}' contain word UI => ${containsUI(string6)}`);
+console.log(`========== END ==========`);

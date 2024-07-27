@@ -10,3 +10,4 @@ const str3 = ("Elon Musk");
 console.log(`First char of given string '${str3}' is : ${firstChar(str3)}`);
 const str4 = ("Apple founder is Stew Job");
 console.log(`First char of given string '${str4}' is : ${firstChar(str4)}`);
+console.log(`========== END ==========`);

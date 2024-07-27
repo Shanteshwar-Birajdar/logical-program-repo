@@ -9,3 +9,4 @@ console.log(titleCase(`language of internet`));
 console.log(titleCase(`EloN musk - The tycoon of decade`));
 console.log(titleCase(`My Life My Life`));
 console.log(titleCase(`logical programming question SET`));
+console.log(`========== END ==========`);
